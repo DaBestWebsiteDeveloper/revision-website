@@ -1,5 +1,6 @@
 body{
   font-family: Helvetica, sans-serif;
+   font-size: 17px;
 }
 
 .header{
@@ -16,6 +17,7 @@ body{
 
 .biology{
   display: flex;
+  flex-direction: column;
   margin-left: 50px;
   background-color: greenyellow;
   width: 350px;
@@ -23,6 +25,7 @@ body{
   border-radius: 10px;
   border: 2px solid black;
   color: white;
+  padding-left: 15px;
 }
 
 .subject-title{
@@ -30,4 +33,10 @@ body{
   justify-content: center;
   width: 100%;
   font-size: 40px;
+}
+
+.checkbox-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
