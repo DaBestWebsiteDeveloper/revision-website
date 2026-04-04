@@ -1,4 +1,23 @@
 .header{
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+.subject-divs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.biology{
+  display: flex;
+  margin-left: 50px;
+  margin-top: 50px;
+  background-color: greenyellow;
+  width: 350px;
+  height: 500px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
 }
