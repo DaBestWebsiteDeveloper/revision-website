@@ -1,3 +1,7 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+
 .header{
   display: flex;
   justify-content: center;
@@ -13,11 +17,17 @@
 .biology{
   display: flex;
   margin-left: 50px;
-  margin-top: 50px;
   background-color: greenyellow;
   width: 350px;
   height: 500px;
   border-radius: 10px;
   border: 2px solid black;
   color: white;
+}
+
+.subject-title{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 40px;
 }
