@@ -48,8 +48,8 @@ body{
 
 .physics{
   display: flex;
-  height: 785px;
-  width: 590px;
+  height: 550px;
+  width: 500px;
   flex-direction: column;
   background-color: rgb(82, 82, 192);
   border-radius: 10px;
