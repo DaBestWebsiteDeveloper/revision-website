@@ -21,11 +21,13 @@ body{
   margin-left: 50px;
   background-color: greenyellow;
   width: 450px;
-  height: 750px;
+  height: 650px;
   border-radius: 10px;
   border: 2px solid black;
   color: white;
   padding-left: 15px;
+  padding-right: 15px;
+  gap: 10px;
 }
 
 .subject-title{
@@ -33,22 +35,24 @@ body{
   justify-content: center;
   width: 100%;
   font-size: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .checkbox-container{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin: 7px;
 }
 
-#bio-checkbox{
-  margin: 7px;
+.checkbox-row{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 h3{
   margin-top: 10px;
-  margin-left: 8px;
   text-decoration: underline;
   margin-bottom: 7px;
 }
