@@ -30,6 +30,21 @@ body{
   gap: 10px;
 }
 
+
+.chemistry{
+  display: flex;
+  height: 650px;
+  width: 450px;
+  flex-direction: column;
+  background-color: pink;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 10px;
+}
+
 .subject-title{
   display: flex;
   justify-content: center;
