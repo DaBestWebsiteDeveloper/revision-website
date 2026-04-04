@@ -11,17 +11,17 @@ body{
 
 .subject-divs{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  gap: 10px;
 }
 
 .biology{
   display: flex;
-  flex-direction: column;
-  margin-left: 50px;
-  background-color: greenyellow;
-  width: 450px;
   height: 650px;
+  width: 450px;
+  flex-direction: column;
+  background-color: greenyellow;
   border-radius: 10px;
   border: 2px solid black;
   color: white;
