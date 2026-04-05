@@ -12,13 +12,13 @@ body{
 .subject-divs{
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 75px;
 }
 
 .biology{
   display: flex;
-  height: 650px;
+  min-height: 650px;
   width: 450px;
   flex-direction: column;
   background-color: greenyellow;
@@ -33,7 +33,7 @@ body{
 
 .chemistry{
   display: flex;
-  height: 785px;
+  min-height: 785px;
   width: 590px;
   flex-direction: column;
   background-color: pink;
@@ -48,7 +48,7 @@ body{
 
 .physics{
   display: flex;
-  height: 550px;
+  min-height: 550px;
   width: 500px;
   flex-direction: column;
   background-color: rgb(82, 82, 192);
